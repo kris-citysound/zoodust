@@ -1,0 +1,46 @@
+$yellow: #ffcc33;
+$teal: #02bbcc;
+$red: #ED1B24;
+$pink: #FF5ECE;
+
+
+@import 'vendor/_bootstrap.min.scss';
+@import '_nav.scss';
+@import '_header.scss';
+@import '_about.scss';
+@import '_cta.scss';
+@import '_media.scss';
+@import '_contact.scss';
+@import '_footer.scss';
+
+
+
+
+
+
+
+body {
+  // padding-top: 50px;
+  background-color: $yellow;
+  font-size: 16px;
+  line-height: 1.5;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+h1, h2, h3, h4 {
+  font-weight: 700;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: $teal;
+    border-color: #fff;
+    font-size: 1.4em;
+    border-width: 2px;
+    width: 60%;
+
+}
+.btn-primary:hover {
+    color: #fff;
+    background-color: $yellow;
+    border-color: #fff;
+}
