@@ -1,16 +1,33 @@
-.contact {
-  background-image: url('../img/live.jpeg');
-  background-position: top;
-  background-size: cover;
+.songs {
+//  background-image: url('../img/live.jpeg');
+//  background-position: top;
+//  background-size: cover;
+  color: #fff;
+  text-align: center;
+  // min-height: 100px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+    background-color: $pink;
+    
+    .modal-body, .modal-title {
+        color: Black;
+        text-align: left;
+    }
 
-  .form-area {
-    background-color: rgba(255,204,51, 1);
-    padding: 10px 40px 60px;
-	   margin: 70px auto 70px auto;
-	  border: none;
-    border-radius: 10px;
-    color: #fff;
+
+
+  h4 {
+    font-size: 2em;
+    margin: 0;
+    font-weight: 300;
+    line-height: 1.5em;
   }
+    
+    @media (max-width: 992px) {
+        h4 {
+            padding-bottom: .5em;
+        }
+    }
 
 
 }

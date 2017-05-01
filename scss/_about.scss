@@ -1,6 +1,6 @@
 #about {
-background-image: url('../img/zigzag.png');
-padding: 50px 0 50px 0;
+background-image: url('../img/asfalt.png');
+padding: 100px 0 100px 0;
 
 
 
@@ -9,28 +9,37 @@ padding: 50px 0 50px 0;
 }
 
   img {
-    max-width: 100%;
+      margin: 0 auto;
+    max-width: 75%;
 
   }
   h2 {
     color: $pink;
     font-size: 2.5em;
-    letter-spacing: .2em;
+    letter-spacing: .1em;
     margin-top: 0;
     margin-bottom: 30px;
   }
 
-  .about-text {
-    background-color: $yellow;
+//  .about-text {
+//    background-color: $yellow;
+//  }
 
-
-  }
-
-  .about-group {
-    background: $yellow;
-    padding: 25px 0 25px 10px;
-    border: solid 3px $pink;
-    box-shadow: 5px 5px 10px #888888;
-  }
+//  .about-group {
+//    background: $yellow;
+//    padding: 25px 0 25px 10px;
+//    border: solid 3px $pink;
+//    box-shadow: 5px 5px 10px #888888;
+//  }
+    
+    @media (max-width: 991px) {
+        h2 {
+            text-align: center;
+            margin-top: 1em;
+        }
+       
+    }
 
 }
+
+

@@ -10,7 +10,7 @@
     <meta name="author" content="">
     <link rel="icon" href="../../favicon.ico">
 
-    <title>Starter Template for Bootstrap</title>
+    <title>ZOODUST - 90's Cover Band</title>
 
     <!-- Bootstrap core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -33,6 +33,7 @@
 
   <body>
 
+<!--
     <nav class="navbar navbar-inverse navbar-fixed-top">
       <div class="container">
         <div class="navbar-header">
@@ -53,9 +54,44 @@
             <li><a href="#contact">Book</a></li>
             <li><a href="#contact">Songs</a></li>
           </ul>
-        </div><!--/.nav-collapse -->
+        </div>/.nav-collapse 
       </div>
     </nav>
+-->
+    
+    
+   <!--
+********************************************************************
+* Responsive Transparent Navbar
+********************************************************************
+-->
+<div class="navbar navbar-inverse navbar-fixed-top opaque-navbar">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navMain">
+  <span class="glyphicon glyphicon-menu-hamburger" style="color:white;"></span>
+    
+  </button>
+      <a class="navbar-brand" href="#"><img src="img/logo.png" alt="" height="300%"></a>
+    </div>
+    <div class="collapse navbar-collapse" id="navMain">
+      <ul class="nav navbar-nav pull-right">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About Us</a></li>
+        <li><a href="#">Services and Pricing</a></li> 
+        <li><a href="#">Contact Us</a></li> 
+      </ul>
+    </div>
+  </div>
+</div>
+    
+    
+    
+    
+    
+    
+    
+    
 
     <header>
       <div class="jumbotron">
@@ -68,18 +104,24 @@
     <section id="about">
       <div class="container">
         <div class="row about-group">
-          <div class="col-md-6">
+          <div class="col-md-6 col-sm-6 ">
             <img class="img-responsive" src="img/group.jpg" alt="">
           </div>
-          <div class="col-md-6 about-text">
-            <h2>ABOUT</h2>
+          <div class="col-md-6 col-sm-6 about-text">
+            <h2>ABOUT THE Z</h2>
             <p>Zoodust is a 90's Party Band based out of Austin, TX that plays a grand majority of top Alternative Rock hits from the 90's including bands such as Third Eye Blind, Fastball, Barenaked Ladies, Oasis, Sugar Ray, Sublime and Weezer (just to name a few).
               <br>
-            Zoodust or “The Z” was forged in 2009, by an incredibly music-savvy group of artists; each of which has extensively toured on a national level. After scoping out the local competition, it became apparent that the surrounding Austin area was in need of a more realistic 90's Cover Band. With that knowledge, Craig Dacy, Dean Barry, Adam Hovey and Mike Blackmon decided to set a new standard for cover bands. They have set out to create a realistic concert experience for the audience. Zoodust puts on a show just like the original bands would have, with no backing-tracks, and one-hundred percent live performance and instruments. They pride themselves in providing excellent crowd interaction, sing-a-longs, and banter that will keep everyone laughing and dancing in a surreal flashback to the not so distant past that is the 90's.
+              <br>
+            Zoodust or “The Z” was forged in 2009, by an incredibly music-savvy group of artists; each of which has extensively toured on a national level. After scoping out the local competition, it became apparent that the surrounding Austin area was in need of a more realistic 90's Cover Band. With that knowledge, Craig Dacy, Dean Barry, Adam Hovey and Mike Blackmon decided to set a new standard for cover bands. 
             <br>
+            <br>
+            They have set out to create a realistic concert experience for the audience. Zoodust puts on a show just like the original bands would have, with no backing-tracks, and one-hundred percent live performance and instruments. They pride themselves in providing excellent crowd interaction, sing-a-longs, and banter that will keep everyone laughing and dancing in a surreal flashback to the not so distant past that is the 90's.
+<!--            <br>-->
+<!--
             With a majority of the group hailing from a nationally known band, Riot Like Words, Michael Blackmon, a booming studio drummer in the Austin area, Craig Dacy, with the voice of an angel, and Adam Hovey with guitar shredding skills that bring comparisons to Stevie Ray, or Hendrix. The final step was finding a capable second vocalist 'slash' guitarist that would be the puzzle piece to complete Zoodust. Dean Danger, the lead vocalist of rising bands The Artillery and Discover You, and a close friend to the other Zoodust members, would be the one to fill that void.
             <br>
             The Z has now set out to give Central Texas exactly what they have been waiting for: A Metaphoric Time-Machine... ZOODUST!</p>
+-->
           </div>
         </div>
       </div>
@@ -91,7 +133,9 @@
             <h4>Book Austin's best cover band today! Duh!<h4>
           </div>
           <div class="col-md-4">
-            <button class="btn btn-lg btn-primary" type="button" name="button">Book Us!</button>
+            <a href="mailto:band@zoodust.net?Subject=Booking"><button class="btn btn-lg btn-primary" type="button" name="button">Book Us!</button></a>
+            
+            
           </div>
         </div>
         </div>
@@ -105,8 +149,8 @@
           </div>
         </div> -->
         <div class="row">
-          <div class="col-md-3">
-            <div class="overlay-container">
+          <div class="col-md-3 col-sm-6 col-xs-6">
+            <div class="overlay-container members">
               <img class="img-responsive" src="img/dean.jpg" alt="">
               <div class="overlay">
                 <div class="overlay-text">
@@ -117,8 +161,8 @@
             </div>
 
           </div>
-          <div class="col-md-3">
-            <div class="overlay-container">
+          <div class="col-md-3 col-sm-6 col-xs-6">
+            <div class="overlay-container members">
               <img class="img-responsive" src="img/craig.jpg" alt="">
               <div class="overlay">
                 <div class="overlay-text">
@@ -128,8 +172,8 @@
               </div>
             </div>
           </div>
-          <div class="col-md-3">
-            <div class="overlay-container">
+          <div class="col-md-3 col-sm-6 col-xs-6">
+            <div class="overlay-container members">
               <img class="img-responsive" src="img/adam.jpg" alt="">
               <div class="overlay">
                 <div class="overlay-text">
@@ -139,8 +183,8 @@
               </div>
             </div>
           </div>
-          <div class="col-md-3">
-            <div class="overlay-container">
+          <div class="col-md-3 col-sm-6 col-xs-6">
+            <div class="overlay-container members">
               <img class="img-responsive" src="img/mike.jpg" alt="">
               <div class="overlay">
                 <div class="overlay-text">
@@ -152,9 +196,19 @@
           </div>
         </div>
         <!-- 16:9 aspect ratio -->
-        <div class=" video embed-responsive embed-responsive-16by9">
-          <iframe width="560" height="315" src="https://www.youtube.com/embed/jgDMKYOUhTY" frameborder="0" allowfullscreen></iframe>
+        <div class="row">
+          <div class="col-md-6">
+            <div class=" video embed-responsive embed-responsive-16by9">
+              <iframe width="560" height="315" src="https://www.youtube.com/embed/jgDMKYOUhTY" frameborder="0" allowfullscreen></iframe>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class=" video embed-responsive embed-responsive-16by9">
+              <iframe width="560" height="315" src="https://www.youtube.com/embed/SS9XhdUfap8" frameborder="0" allowfullscreen></iframe>
+            </div>
+          </div>
         </div>
+
     </section>
 
       </div>
@@ -181,37 +235,294 @@
       </section>
 
 
-    <section class="contact">
+    <section class="songs">
       <div class="container">
-        <div class="col-md-5">
-            <div class="form-area">
-                <form role="form">
-                <br style="clear:both">
-                            <h3 style="margin-bottom: 25px; text-align: center;">Request a Song</h3>
-            				<div class="form-group">
-        						<input type="text" class="form-control" id="name" name="name" placeholder="Name" required>
-        					</div>
-        					<div class="form-group">
-        						<input type="text" class="form-control" id="email" name="email" placeholder="Email" required>
-        					</div>
-        					<div class="form-group">
-        						<input type="text" class="form-control" id="mobile" name="mobile" placeholder="Mobile Number" required>
-        					</div>
-        					<div class="form-group">
-        						<input type="text" class="form-control" id="subject" name="subject" placeholder="Subject" required>
-        					</div>
-                            <div class="form-group">
-                            <textarea class="form-control" type="textarea" id="message" placeholder="Message" maxlength="140" rows="7"></textarea>
+      <div class="row">
+         <div class="col-md-8">
+             <h4>See Our Current List Of Songs!</h4>
+         </div>
+          <div class="col-md-4">
+                    <!-- Button trigger modal -->
+<button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
+  Song List
+</button>
+          </div>
+      </div>
+      
 
-                            </div>
 
-                <button type="button" id="submit" name="submit" class="btn btn-primary pull-right">Submit Form</button>
-                </form>
+<!-- Modal -->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="myModalLabel">Current Songs</h4>
+      </div>
+      <div class="modal-body">
+        
+            <div class="row">
+            <div class="col-md-12">
+                <p>The list below consists of all of the songs we play currently. We are constantly taking requests and learning new songs to add to our setlist, so keep checking back. Don't see the song you want to hear? Make a request by clicking the grey bar located just above this info, or if you are at a show, you can write it down on a napkin or a dollar bill (or a bill of higher value *wink)..</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <table class="table table-striped">
+                    <thead>
+                        <tr>
+                            <th>Song Title</th>
+                            <th>Artist Name</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>The Way</td>
+                            <td>Fastball</td>
+                        </tr>
+                        <tr>
+                            <td>Follow You Down</td>
+                            <td>Gin Blossom</td>
+                        </tr>
+                        <tr>
+                            <td>All For You</td>
+                            <td>Sister Hazel</td>
+                        </tr>
+                        <tr>
+                            <td>Kiss Me</td>
+                            <td>Sixpence None The Richer</td>
+                        </tr>
+                        <tr>
+                            <td>Fly</td>
+                            <td>Sugar Ray</td>
+                        </tr>
+                        <tr>
+                            <td>How Bizarre</td>
+                            <td>O.M.C</td>
+                        </tr>
+                        <tr>
+                            <td>All Star</td>
+                            <td>Smashmouth</td>
+                        </tr>
+                        <tr>
+                            <td>Two Princes</td>
+                            <td>Spin Doctors</td>
+                        </tr>
+                        <tr>
+                            <td>Flagpole Sitta'</td>
+                            <td>Harvey Danger</td>
+                        </tr>
+                        <tr>
+                            <td>Wonderwall</td>
+                            <td>Oasis</td>
+                        </tr>
+                        <tr>
+                            <td>Save Tonight</td>
+                            <td>Eagle Eye Cherry</td>
+                        </tr>
+                        <tr>
+                            <td>Push</td>
+                            <td>Matchbox 20</td>
+                        </tr>
+                        <tr>
+                            <td>Santeria</td>
+                            <td>Sublime</td>
+                        </tr>
+                        <tr>
+                            <td>Iris</td>
+                            <td>GooGoo Dolls</td>
+                        </tr>
+                        <tr>
+                            <td>One Headlight</td>
+                            <td>The Wallflowers</td>
+                        </tr>
+                        <tr>
+                            <td>My Own Worst Enemy</td>
+                            <td>Lit</td>
+                        </tr>
+                        <tr>
+                            <td>Semi-Charmed Life</td>
+                            <td>Third Eye Blind</td>
+                        </tr>
+                        <tr>
+                            <td>Teenage Dirtbag</td>
+                            <td>Wheatus</td>
+                        </tr>
+                        <tr>
+                            <td>Champagne Supernova</td>
+                            <td>Oasis</td>
+                        </tr>
+                        <tr>
+                            <td>Buy You A New Life</td>
+                            <td>Everclear</td>
+                        </tr>
+                        <tr>
+                            <td>She's So High</td>
+                            <td>Tal Bachman</td>
+                        </tr>
+                        <tr>
+                            <td>Good Riddance</td>
+                            <td>Greenday</td>
+                        </tr>
+                        <tr>
+                            <td>One Week</td>
+                            <td>Barenaked Ladies</td>
+                        </tr>
+                        <tr>
+                            <td>Mmmbop</td>
+                            <td>Hanson</td>
+                        </tr>
+                        <tr>
+                            <td>I'll Be</td>
+                            <td>Edwin McCain</td>
+                        </tr>
+                        <tr>
+                            <td>Free Fallin'</td>
+                            <td>Tom Petty</td>
+                        </tr>
+                        <tr>
+                            <td>Closing Time</td>
+                            <td>Semi Sonic</td>
+                        </tr>
+                        <tr>
+                            <td>Jumper</td>
+                            <td>Third Eye Blind</td>
+                        </tr>
+                        <tr>
+                            <td>Undone (Sweater Song)</td>
+                            <td>Weezer</td>
+                        </tr>
+                        <tr>
+                            <td>Absolutley</td>
+                            <td>Nine Days</td>
+                        </tr>
+                        <tr>
+                            <td>Pretty Fly For a White Guy</td>
+                            <td>Offspring</td>
+                        </tr>
+                        <tr>
+                            <td>90's T.V. Theme Song Medley</td>
+                            <td>Zoodust</td>
+                        </tr>
+                        <tr>
+                            <td>Tribute</td>
+                            <td>Tenacious D</td>
+                        </tr>
+                        <tr>
+                            <td>Ice Ice Baby</td>
+                            <td>Vanilla Ice</td>
+                        </tr>
+                        <tr>
+                            <td>Everybody</td>
+                            <td>Backstreet Boys</td>
+                        </tr>
+                        <tr>
+                            <td>500 miles</td>
+                            <td>The Proclaimers</td>
+                        </tr>
+                        <tr>
+                            <td>Inside Out</td>
+                            <td>Eve 6</td>
+                        </tr>
+                        <tr>
+                            <td>Here's To Tonight</td>
+                            <td>Eve 6</td>
+                        </tr>
+                        <tr>
+                            <td>No Rain</td>
+                            <td>Blind Melon</td>
+                        </tr>
+                        <tr>
+                            <td>More Than Words</td>
+                            <td>Extreme</td>
+                        </tr>
+                        <tr>
+                            <td>The MIddle</td>
+                            <td>Jimmy Eat World</td>
+                        </tr>
+                        <tr>
+                            <td>Give Me One Reason</td>
+                            <td>Tracy Chapman</td>
+                        </tr>
+                        <tr>
+                            <td>Life Is A Highway</td>
+                            <td>Tom Cochrane</td>
+                        </tr>
+                        <tr>
+                            <td>All The Small Things</td>
+                            <td>BLink 182</td>
+                        </tr>
+                        <tr>
+                            <td>New Age Girl</td>
+                            <td>Dead Eye Dick</td>
+                        </tr>
+                        <tr>
+                            <td>3 A.M.</td>
+                            <td>Matchbox 20</td>
+                        </tr>
+                        <tr>
+                            <td>No Diggity</td>
+                            <td>Blackstreet</td>
+                        </tr>
+                        <tr>
+                            <td>Love Shack</td>
+                            <td>The B-52's</td>
+                        </tr>
+                        <tr>
+                            <td>This Is How We Do It</td>
+                            <td>Montell Jordan</td>
+                        </tr>
+                        <tr>
+                            <td>Say It Ain't So</td>
+                            <td>Weezer</td>
+                        </tr>
+                        <tr>
+                            <td>Breakfast At Tiffany's</td>
+                            <td>Deep BLue Something</td>
+                        </tr>
+                        <tr>
+                            <td>Ironic</td>
+                            <td>Alanis Morissette</td>
+                        </tr>
+                        <tr>
+                            <td>Pony</td>
+                            <td>Ginuwine</td>
+                        </tr>
+                        <tr>
+                            <td>Wannabe</td>
+                            <td>Spice Girls</td>
+                        </tr>
+                        <tr>
+                            <td>Natalie Imbruglia</td>
+                            <td>Torn</td>
+                        </tr>
+                        <tr>
+                            <td>No Scrubs</td>
+                            <td>TLC</td>
+                        </tr>
+                    </tbody>
+                </table>
             </div>
         </div>
         
       </div>
+      <div class="modal-footer">
+      <div class="col-md-7 col-md-offset-1"> <a href="mailto:band@zoodust.net?Subject=Song%20Request"><button type="button" class="btn btn-primary request">Request A Song</button></a></div>
+      
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+      </div>
     </section>
+    
+    
+    
+    
+    
+    
   <footer>
     <div class="container">
       <div class="row">
@@ -253,5 +564,6 @@
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
+    <script src="js/nav.js"></script>
   </body>
 </html>
