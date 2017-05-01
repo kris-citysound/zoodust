@@ -43,6 +43,11 @@ ul.dropdown-menu {
     background-color:#02BBCC ;
 }
 
+.navbar-inverse .navbar-collapse {
+    border-color: $yellow;
+    background-color: $yellow;
+}
+
 
 @media (max-width: 992px) {
   body
