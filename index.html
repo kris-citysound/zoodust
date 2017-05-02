@@ -76,11 +76,11 @@
     </div>
     <div class="collapse navbar-collapse" id="navMain">
       <ul class="nav navbar-nav pull-right">
-        <li><a href="#">Home</a></li>
-        <li><a href="#about">About</a></li>
-        <li><a href="#media">Media</a></li> 
-        <li><a href="#booking">Booking</a></li> 
-        <li><a href="#songs">Songs</a></li> 
+        <li><a data-scroll href="#">Home</a></li>
+        <li><a data-scroll href="#about">About</a></li>
+        <li><a data-scroll href="#media">Media</a></li> 
+        <li><a data-scroll href="#booking">Booking</a></li> 
+        <li><a data-scroll href="#songs">Songs</a></li> 
       </ul>
     </div>
   </div>
@@ -106,7 +106,10 @@
       <div class="container">
         <div class="row about-group">
           <div class="col-md-6 col-sm-6 ">
-            <img class="img-responsive group" src="img/group.jpg" alt="">
+           <div class="about-box">
+               <img class="img-responsive group" src="img/group.jpg" alt="">
+           </div>
+            
           </div>
           <div class="col-md-6 col-sm-6 about-text">
             <h2>ABOUT THE Z</h2>
@@ -566,5 +569,9 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/nav.js"></script>
+    <script src="js/smooth-scroll.min.js"></script>
+    <script>
+    smoothScroll.init();
+</script>
   </body>
 </html>
